@@ -1,0 +1,159 @@
+/* universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: #000;
+}
+
+h2,
+h4,
+h5 {
+  text-align: center;
+}
+
+h2 {
+  margin: 16px 0;
+}
+
+h4 {
+  margin: 8px 0;
+}
+
+/* header area */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 70px;
+  width: 100%;
+  z-index: 10;
+  background: #000;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+/* main area */
+main {
+  padding-top: 69px;
+  margin: 0 auto;
+  width: 1200px;
+  opacity: 0.9;
+}
+/* mission section */
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  background: url("../img/img-mission-background.jpg");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.title-area {
+  background: #000;
+}
+
+/* menu section */
+#menu {
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+#menu-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  margin: 5px;
+}
+
+figure img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+/* location section */
+#locations {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/img-locations-background.jpg");
+}
+
+#location-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.location-card {
+  text-align: center;
+  margin: 0 10px;
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* contact section */
+#contact {
+  min-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer h5 {
+  padding-left: 20px;
+}
